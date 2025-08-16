@@ -149,3 +149,9 @@ process-inject {
         RtlCreateUserThread;
      }
 }
+
+stage {
+   set userwx "false";
+   set module_x64 "Hydrogen.dll";
+   set copy_pe_header "false";
+}
